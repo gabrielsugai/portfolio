@@ -6,7 +6,7 @@ feature 'Visitor can access the project gallery' do
                               repository: 'https://github.com', 
                               description: 'Projeto consiste em um' +
                                            ' site de vendas')
-    
+
     visit root_path
     click_on 'Projetos'
 
@@ -40,7 +40,6 @@ feature 'Visitor can access the project gallery' do
   end
 
   scenario 'and recieve a message with any project registered' do
-    
     visit root_path
     click_on 'Projetos'
 
